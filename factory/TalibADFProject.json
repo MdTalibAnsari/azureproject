@@ -1,0 +1,15 @@
+{
+	"name": "TalibADFProject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9b24293a-b353-4c28-9c72-4f0e08d29186",
+		"tenantId": "212f15fa-c976-42e9-858f-66c495dd1cc5"
+	}
+}

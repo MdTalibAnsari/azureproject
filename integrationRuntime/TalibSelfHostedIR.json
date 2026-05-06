@@ -1,0 +1,12 @@
+{
+	"name": "TalibSelfHostedIR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/195d6238-2add-4130-a2da-fd2d5420b7c2/resourcegroups/TalibAnsariResourceGroup/providers/Microsoft.DataFactory/factories/TalibAnsariADF/integrationruntimes/SelfHostedIR",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
