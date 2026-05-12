@@ -1,0 +1,27 @@
+{
+	"name": "Git_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Git_LS_Netflix",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "@concat('anshlambagit/Netflix_Azure_Data_Engineering_Project/main/RawData_AND_Notebooks/',dataset().file_name)"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
